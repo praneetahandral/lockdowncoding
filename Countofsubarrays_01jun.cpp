@@ -8,15 +8,9 @@ int atMostK(int arr[], int n, int k)
 { 
   
     
-    int count = 0; 
-  
- 
-    int left = 0; 
-  
-     
+    int count = 0;
+    int left = 0;
     int right = 0; 
-  
-    
     map<int,int> map; 
     
     while (right < n) { 
